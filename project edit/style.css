@@ -1,0 +1,93 @@
+header{
+    background-image: url(./fe45f365-8f4d-47a3-85fe-f69bb6798a02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 40% 40%;
+ 
+}
+
+#mypic{
+ width: 15%;
+height: 15%;
+display: block;
+width: 15%;
+margin-left: auto;
+margin-right: auto;}
+
+.header-name h4 {
+    color: azure;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 40%;
+    padding-left: 30px;
+    text-align: center;
+}
+/* ************************************************************************************************************************************************ */
+.main-one{
+    background-color: rgb(199, 223, 145);
+}
+
+.row{
+    background-color:antiquewhite; 
+}
+/* ------------------------------------------------------object------------------------------------------------------------------------------- */
+.objective{
+    width: 80%;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color:antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+    padding-bottom: 10%;
+    font-size: large;
+  
+}
+/* ------------------------------------------------------h1------------------------------------------------------------------------------- */
+/* css for h1 education project experience */
+h1{
+    color:rgb(207, 138, 46);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+/* ------------------------------------------------------project------------------------------------------------------------------------------- */
+h5{
+    padding-left: 10%;
+}
+
+.image{
+    width: 70%;
+    height: 70%;
+    margin-top: 40px;
+    margin-left: 100px;
+    opacity: 1;
+    transition: .5s ease;
+
+}
+.image:hover{
+    opacity: 0.3;
+
+}
+
+/* ------------------------------------------------------experience------------------------------------------------------------------------------- */
+.Experience p{
+    width: 80%;
+    height: 100px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    background-color:antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 20px;
+    font-size: large;
+}
+
+/* ------------------------------------------------------@media query------------------------------------------------------------------------------- */
+@media screen  and (min-width:992)and (max-width){
+    
+}
