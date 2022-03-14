@@ -5,12 +5,13 @@ header{
     background-position: 40% 40%;
  
 }
-
+/* ------------------------------------------------------nav------------------------------------------------------------------------------- */
 .nav{
     background-color: antiquewhite;
-    overflow: hidden;
     display: flex;
     flex-direction: row;
+    
+    
    
 }
 
@@ -19,6 +20,7 @@ header{
     text-align: center;
     padding: 14px 16px;
     color: black;
+    
 }
 
 .nav a:hover {
@@ -30,7 +32,7 @@ header{
       color: white;
      
   }
-
+/* ------------------------------------------------------header------------------------------------------------------------------------------- */
 
 #mypic{
  width: 15%;
