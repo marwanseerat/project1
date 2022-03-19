@@ -1,117 +1,140 @@
-header{
+
+ header{
+     padding-top: 10%;
     background-image: url(./fe45f365-8f4d-47a3-85fe-f69bb6798a02.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 40% 40%;
+    overflow:auto;
  
-}
+} 
 /* ------------------------------------------------------nav------------------------------------------------------------------------------- */
-.nav{
-    background-color: antiquewhite;
-    display: flex;
-    flex-direction: row;
-    
-    
+.navbar{
+    background-color:#655D8A;
+   
+   
    
 }
 
-.nav a{
+.navbar a{
     text-decoration: none;
     text-align: center;
     padding: 14px 16px;
     color: black;
     
 }
+.navbar-brand{
+    background-color: #D885A3 ;
+    border-radius: 40%;
+    
+}
 
-.nav a:hover {
-    background-color:  rgb(199, 223, 145);
+.navbar a:hover {
+    background-color: #FDCEB9;
     color: black;
   }
-  .nav a.home{
-      background-color: rgb(199, 223, 145) ;
-      color: white;
-     
-  }
+ 
 /* ------------------------------------------------------header------------------------------------------------------------------------------- */
 
 #mypic{
- width: 15%;
-height: 15%;
-display: block;
-margin-left: auto;
-margin-right: auto;}
-
-.header-name h4 {
-    color: azure;
+    
+    width: 250px;
+    height: 250px;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    border: 15px solid #655D8A;
+   border-radius: 50% ;}
+
+    .header-name h4{
+    color:#fff ;
+    margin-left: auto; 
+    margin-right: auto;
     display: block;
-    width: 40%;
-    padding-left: 30px;
+    width: 70%;
+    padding-left: 20px;
     text-align: center;
-}
-/* ************************************************************************************************************************************************ */
-.main-one{
-    background-color: rgb(199, 223, 145);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
 }
 
-.row{
-    background-color:antiquewhite; 
-}
-/* ------------------------------------------------------object------------------------------------------------------------------------------- */
+
+    
+/* ************************************************************************************************************************************************ */
+
+
 .objective{
-    width: 80%;
-    height: 100px;
-    border: 2px solid rgb(0, 0, 0);
+    border: 2px solid #655D8A;
     border-radius: 25px;
-    background-color:antiquewhite;
+
     margin-left: auto;
     margin-right: auto;
     display: block;
-    padding: 20px;
-    padding-bottom: 10%;
     font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
   
 }
 /* ------------------------------------------------------h1------------------------------------------------------------------------------- */
 /* css for h1 education project experience */
 h1{
-    color:rgb(207, 138, 46);
+    color:#655D8A;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    padding: 10px 20px;
+}
+.education p{
+    padding-top: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+   
 }
 
+.edu1{
+    border: 3px solid#655D8A ;
+}
+.h5{
+
+    font-size:large;
+}
 /* ------------------------------------------------------project------------------------------------------------------------------------------- */
-h5{
-    padding-left: 10%;
-}
-
-.image{
-    width: 70%;
-    height: 70%;
-    margin-top: 40px;
-    margin-left: 10px;
-    opacity: 1;
-    transition: .5s ease;
+.card-project{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    /* background-color: #655D8A; */
+    margin: -12px;
+    padding:10px 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:large;
 
 }
-.image:hover{
-    opacity: 0.3;
 
-}
+    
+     
+    
+
+    
+    
+
+
 
 /* ------------------------------------------------------experience------------------------------------------------------------------------------- */
 .Experience p{
-    width: 80%;
-    height: 100px;
     border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
-    background-color:antiquewhite;
-    margin-left: auto;
-    margin-right: auto;
     display: block;
-    padding: 20px;
     font-size: large;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+padding-left: 20px;}
+
+.footer{
+    height: 300px;
+    
+    background-color: #655D8A;
+}
+
+.sitefooter{
+    padding-left: 20%;                                                                                                                                                                                                                                                                  
+
 }
 
 /* ------------------------------------------------------@media query------------------------------------------------------------------------------- */
@@ -120,7 +143,7 @@ h5{
         width: 80%;
         height: 100px;
         padding: 20px;
-        padding-bottom: 15%;
+        
     }
   
 }
@@ -130,13 +153,12 @@ h5{
         width: 100%;
         height: 100px;
         padding: 20px;
-        padding-bottom: 18%;
+        
     }
     .Experience p{
         width: 80%;
         height: 100px;
-        /* padding: 20px; */
-        padding-bottom: 15%;
+       
        
     }
 }
@@ -151,20 +173,30 @@ h5{
         width: 80%;
         height: 120px;
         padding: 20px;
-        padding-bottom: 30%;
+        
         font-size: 2vw;}
 
         .Experience p{
             width: 80%;
             height: 100px;
-            /* padding: 20px; */
-            padding-bottom: 15%;
+            /* padding: 20px; */}
+          p{
             font-size: 2vw;
            
         }
 
 }
 @media screen and (min-width:425px)and (max-width:655px){
+}
+
+
+
+    
+    
+    
+    
+    
+    
     .header-name h4 {
         width: 80%;
         padding-left: 30px;
@@ -174,33 +206,30 @@ h5{
         width: 100%;
         height: 120px;
         padding: 20px;
-        padding-bottom: 30%;
-        font-size: 3vw;}
+      
+        font-size: large;}
 
         .image{
             width: 100%;
             height: 70%;
-            
-            /* position: absolute; */
-            /* left: 50px; */
-         
-        
         }
+
+
         .Experience p{
             width: 100%;
             height: 100px;
             /* padding: 20px; */
-            padding-bottom: 15%;
-            font-size: 2vw;
+           
+            font-size: medium;
            
         }
         footer div{
-            font-size: 2vw;
-            padding-left: 3px;
+            font-size:small;
+           margin:20px 40px;
         }
 
         
-}
+
 
 @media screen and (min-width:375px)and (max-width:658px){
     .header-name h4 {
@@ -303,7 +332,13 @@ h5{
                     font-size:small;
                 }
 
-              
+                .footer{
+                    height: 600px;
+                    
+                    background-color: #655D8A;
+                }
+                
+                
 
             }         
 
